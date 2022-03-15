@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import Welcome from "./components/Welcome"
+import Clock from "./components/Clock"
+import LoginControl from "./components/LoginControl"
+import Mailbox from "./components/Mailbox"
+import Page from "./components/Page"
+import List from "./components/List"
+import Blog from "./components/Blog"
 
-function App() {
+const messages = ["React", "Vue", "Angular"]
+const posts = [
+  { id: 1, title: "Hello World", content: "Welcome to learning React!" },
+  { id: 2, title: "Installation", content: "You can install React from npm." },
+]
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LoginControl isLoggedIn={false} />
+      <Mailbox unreadMessages={messages} />
+      <Page />
+      <Clock />
+      <List items={messages} />
+      <Blog posts={posts} />
     </div>
-  );
+  )
 }
-
-export default App;
