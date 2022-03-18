@@ -7,7 +7,8 @@
 // import Blog from "./components/Blog"
 // import NameForm from "./components/NameForm"
 // import EssayForm from "./components/EssayForm"
-import FlavorForm from "./components/FlavorForm"
+// import FlavorForm from "./components/FlavorForm"
+import Calculator from "./components/Calculator"
 
 // const messages = ["React", "Vue", "Angular"]
 // const posts = [
@@ -26,7 +27,8 @@ export default function App() {
       <Blog posts={posts} />
       <NameForm />
       <EssayForm /> */}
-      <FlavorForm />
+      {/* <FlavorForm /> */}
+      <Calculator />
     </div>
   )
 }
