@@ -8,7 +8,9 @@
 // import NameForm from "./components/NameForm"
 // import EssayForm from "./components/EssayForm"
 // import FlavorForm from "./components/FlavorForm"
-import Calculator from "./components/Calculator"
+// import Calculator from "./components/Calculator"
+// import WelcomeDialog from "./components/WelcomeDialog"
+import SignUpDialog from "./components/SignUpDialog"
 
 // const messages = ["React", "Vue", "Angular"]
 // const posts = [
@@ -28,7 +30,9 @@ export default function App() {
       <NameForm />
       <EssayForm /> */}
       {/* <FlavorForm /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <WelcomeDialog /> */}
+      <SignUpDialog />
     </div>
   )
 }
