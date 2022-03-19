@@ -10,7 +10,8 @@
 // import FlavorForm from "./components/FlavorForm"
 // import Calculator from "./components/Calculator"
 // import WelcomeDialog from "./components/WelcomeDialog"
-import SignUpDialog from "./components/SignUpDialog"
+// import SignUpDialog from "./components/SignUpDialog"
+import Demo from "./context"
 
 // const messages = ["React", "Vue", "Angular"]
 // const posts = [
@@ -21,18 +22,7 @@ import SignUpDialog from "./components/SignUpDialog"
 export default function App() {
   return (
     <div>
-      {/* <LoginControl isLoggedIn={false} />
-      <Mailbox unreadMessages={messages} />
-      <Page />
-      <Clock />
-      <List items={messages} />
-      <Blog posts={posts} />
-      <NameForm />
-      <EssayForm /> */}
-      {/* <FlavorForm /> */}
-      {/* <Calculator /> */}
-      {/* <WelcomeDialog /> */}
-      <SignUpDialog />
+      <Demo />
     </div>
   )
 }
