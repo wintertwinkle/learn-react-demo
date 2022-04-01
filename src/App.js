@@ -1,13 +1,5 @@
-import ConsumingMultipleContextsDemo from "./context/consuming-multiple-contexts"
+import Example from "./hooks/example"
 
 export default function App() {
-  const user = {
-    name: "wintertwinkle",
-  }
-  const theme = "dark"
-  return (
-    <div>
-      <ConsumingMultipleContextsDemo signedInUser={user} theme={theme} />
-    </div>
-  )
+  return <Example />
 }
